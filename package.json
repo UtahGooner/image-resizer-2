@@ -1,0 +1,21 @@
+{
+  "name": "image-resizer-2",
+  "version": "1.0.0",
+  "description": "Image resizer for chums images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lifestyle": "node index.js --action=lifestyle",
+    "slide": "node index.js --action=slide",
+    "slide3": "node index.js --action=slide3",
+    "product": "node index.js --action=product",
+    "swatch": "node index.js --action=swatch"
+  },
+  "author": "Steve Montgomery",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "sharp": "^0.27.0"
+  }
+}
